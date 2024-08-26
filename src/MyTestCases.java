@@ -28,15 +28,20 @@ public class MyTestCases {
 		
 		stmt = con.createStatement();
 		
-		rs = stmt.executeQuery("SELECT * FROM customers where customerNumber = 129 ");
+		rs = stmt.executeQuery("SELECT * FROM customers where customerNumber = 148 ");
 		
 		while(rs.next()) {
 		
 			int CustomerNumber = rs.getInt("customerNumber");
 			String CustomerName = rs.getString("CustomerName");
+			//String Address = rs.getString("addressLine1");
+			String Address = rs.getString("addressLine1") +" "+ rs.getString("addressLine2");
 			
 			System.out.println(CustomerNumber);
+			System.out.println("***************");
 			System.out.println(CustomerName);
+			System.out.println("***************");
+			System.out.println(Address);
 	}
 	}
 }

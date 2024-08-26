@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-25T19:57:06 EET" name="Default suite" finished-at="2024-08-25T19:57:07 EET" duration-ms="770">
+  <suite started-at="2024-08-26T16:47:53 EET" name="Default suite" finished-at="2024-08-26T16:47:54 EET" duration-ms="616">
     <groups>
     </groups>
-    <test started-at="2024-08-25T19:57:06 EET" name="Default test" finished-at="2024-08-25T19:57:07 EET" duration-ms="770">
+    <test started-at="2024-08-26T16:47:53 EET" name="Default test" finished-at="2024-08-26T16:47:54 EET" duration-ms="616">
       <class name="MyTestCases">
-        <test-method is-config="true" signature="MySetup()[pri:0, instance:MyTestCases@52b1beb6]" started-at="2024-08-25T19:57:06 EET" name="MySetup" finished-at="2024-08-25T19:57:07 EET" duration-ms="656" status="PASS">
+        <test-method is-config="true" signature="MySetup()[pri:0, instance:MyTestCases@52b1beb6]" started-at="2024-08-26T16:47:53 EET" name="MySetup" finished-at="2024-08-26T16:47:54 EET" duration-ms="543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MySetup -->
-        <test-method signature="GetData()[pri:0, instance:MyTestCases@52b1beb6]" started-at="2024-08-25T19:57:07 EET" name="GetData" finished-at="2024-08-25T19:57:07 EET" duration-ms="70" status="PASS">
+        <test-method signature="GetData()[pri:0, instance:MyTestCases@52b1beb6]" started-at="2024-08-26T16:47:54 EET" name="GetData" finished-at="2024-08-26T16:47:54 EET" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetData -->
